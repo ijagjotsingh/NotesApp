@@ -10,7 +10,7 @@ function Header() {
     <header className={darkMode ? "headerDark" : "header"}>
       <h1>
         <HighlightIcon />
-        NotesApp
+         NotesApp
       </h1>
      { !darkMode ? <span onClick={()=>dispatch({type : "toggle"})}>
         <>Dark Mode</> <NightsStayOutlinedIcon />
